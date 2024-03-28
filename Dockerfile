@@ -1,4 +1,3 @@
-  GNU nano 6.2                                                  Dockerfile                                                            
 FROM ubuntu:22.04
 # Instalacion de dependencias
 RUN apt-get update \
