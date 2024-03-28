@@ -2,7 +2,7 @@
 FROM ubuntu:22.04
 # Instalacion de dependencias
 RUN apt-get update \
-    && apt-get install -y apache2 --no-install-recommends openjdk-17-jdk unzip git \
+    && apt-get install -y apache2 --no-install-recommends \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 # Iniciar servicio apache
