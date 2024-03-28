@@ -8,4 +8,4 @@ RUN apt-get update \
 # Iniciar servicio apache
 CMD ["apache2ctl", "-D", "FOREGROUND"]
 # Asiognacion de puerto
-EXPOSE 444
+EXPOSE 80 443
